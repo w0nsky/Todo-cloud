@@ -37,6 +37,10 @@
     </div>
     <div class="row">
       <div id="list" class="col-md-8 col-md-offset-2">  
+        <?php
+          error_reporting(E_ALL);
+          ini_set('display_errors', 1);
+        ?>
         <?php include 'list.php' ?>
       </div>
     </div>

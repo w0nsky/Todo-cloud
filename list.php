@@ -21,6 +21,10 @@ $dbconfig = mysqli_connect($host,$username,$password,$database) or die("An Error
 $result=mysqli_query($dbconfig,"SELECT * FROM todo");
 
 ?>
+<?php
+	error_reporting(E_ALL);
+	ini_set('display_errors', 1);
+?>
 <table class="table" id=todoListTable>
 	<thead>
 		<th class="col-md-1">ID</th>
