@@ -9,10 +9,10 @@
 
 <?php
   /*Database Connection*/
-  $host = 'localhost';
-  $username = 'root';
-  $password = '';
-  $database = 'dm';
+  $host = getenv('DB_HOST');
+  $username = getenv('DB_USER');
+  $password = getenv('DB_PASS');
+  $database = getenv('DB_NAME');
   Global $dbconfig;
   $dbconfig = mysqli_connect($host,$username,$password,$database) or die("An Error occured while connecting to the database");
 ?>
