@@ -10,7 +10,7 @@
 <?php
   /*Database Connection*/
   $host = 'todo-db-wonsky.mysql.database.azure.com';
-  $username = "wadmin@todo-db-wonsky";
+  $username = "wadmin";
   $password = "Chujchuj123!";
   $database = "todo_db";
   global $dbconfig;
