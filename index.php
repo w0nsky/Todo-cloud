@@ -32,7 +32,8 @@
       <div class="col-md-8 col-md-offset-2">
         <div class="alert alert-success" role="alert">
            <h4>TODO List Management using Bootstrap, PHP, MySql, AJAX, JQuery, Alertify JS</h4>
-        </div>
+           <p>Author: Suresh Pokharel</p>
+          </div>
       </div>
     </div>
     <div class="row">
