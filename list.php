@@ -13,7 +13,7 @@ $host = 'todo-db-wonsky.mysql.database.azure.com';
 $username = "wadmin@todo-db-wonsky";
 $password = "Krytno12A!";
 $database = "todo_db";
-Global $dbconfig; // to use globally
+global $dbconfig; // to use globally
 $dbconfig = mysqli_connect($host,$username,$password,$database) or die("An Error occured while connecting to the database");
 ?>
 

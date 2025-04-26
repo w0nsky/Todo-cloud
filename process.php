@@ -13,7 +13,7 @@
   $username = "wadmin@todo-db-wonsky";
   $password = "Krytno12A!";
   $database = "todo_db";
-  Global $dbconfig;
+  global $dbconfig;
   $dbconfig = mysqli_connect($host,$username,$password,$database) or die("An Error occured while connecting to the database");
 ?>
 <?php 
